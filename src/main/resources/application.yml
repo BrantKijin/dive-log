@@ -1,0 +1,13 @@
+my.service:
+  enabled: true
+  remote-address: 192.168.0.1
+  security:
+    username: Honeymon
+    password: password1234
+    roles:
+    - USER
+    - MANAGER
+    attrs:
+      hasWriteAuthority: false
+      hasReadAuthority: true
+      hasDeleteAuthority: false
