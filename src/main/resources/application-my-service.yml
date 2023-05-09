@@ -1,15 +1,3 @@
-spring:
-  profiles:
-    active:
-    - local
-    group:
-      local: "site-local,db-local"
-      dev: "site-dev,db-local"
-      beta: "site-beta,db-beta"
-      prod: "site-prod,db-prod"
-    include:
-    - db
-    - site
 my.service:
   enabled: true
   remote-address: 192.168.0.1
